@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EsToDoList</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="neon-border"></div>
+
+  <div class="app">
+    <h1 class="title">EsToDoList</h1>
+
+    <div class="input-area">
+      <input id="task-input" type="text" placeholder="Digite uma tarefa..." />
+      <button id="add-btn" class="pulse">+</button>
+    </div>
+
+    <ul id="task-list" class="task-list"></ul>
+
+    <div class="filters">
+      <input id="search" type="text" placeholder="Pesquise..." />
+      <select id="filter">
+        <option value="all">Todos</option>
+        <option value="done">Concluídos</option>
+        <option value="pending">Pendentes</option>
+      </select>
+    </div>
+  </div>
+
+  <audio id="sound-click" src="sounds/click.mp3" preload="auto"></audio>
+  <audio id="sound-success" src="sounds/success.mp3" preload="auto"></audio>
+  <audio id="sound-delete" src="sounds/delete.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
