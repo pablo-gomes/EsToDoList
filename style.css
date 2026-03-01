@@ -266,7 +266,7 @@ select:focus {
 @media (max-width: 480px) {
 
   body {
-    padding: 15px;
+    padding: 40px;
   }
 
   .app {
@@ -283,7 +283,7 @@ select:focus {
   }
 
   #add-btn {
-    width: 100%;
+    width: 60%;
     height: 50px;
     font-size: 1.5rem;
   }
@@ -307,3 +307,4 @@ select:focus {
     font-size: 1.3rem;
   }
 }
+
