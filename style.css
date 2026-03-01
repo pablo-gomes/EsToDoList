@@ -9,7 +9,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  color: #eee;
+  color: #333;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -317,6 +317,7 @@ select:focus {
     font-size: 1.3rem;
   }
 }
+
 
 
 
