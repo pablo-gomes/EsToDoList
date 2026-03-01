@@ -46,8 +46,8 @@ body::after {
 }
 
 .app {
-  background: rgba(35, 35, 50, 0.7);
-  backdrop-filter: blur(14px);
+  background: tranparent;
+  backdrop-filter: blur(20px);
   border-radius: 20px;
   box-shadow: 0 0 30px rgba(0, 255, 150, 0.15);
   padding: 35px;
@@ -89,7 +89,7 @@ input, select {
   outline: none;
   font-size: 1rem;
 }
-input, select:placeholder {
+input::placeholder {
   color: white;
 }
 
@@ -321,6 +321,7 @@ select:focus {
     font-size: 1.3rem;
   }
 }
+
 
 
 
