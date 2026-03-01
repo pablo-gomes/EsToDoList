@@ -21,7 +21,7 @@ body::after {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #00ffb3;
+  background: #93E9BE;
   clip-path: polygon(70% 0, 100% 0, 100% 100%, 30% 100%);
   z-index: 1;
 }
@@ -62,7 +62,7 @@ body::after {
 
 .title {
   font-size: 2.4rem;
-  color: #00ffb3;
+  color: #93E9BE;
   margin-bottom: 25px;
   letter-spacing: 1px;
   animation: floatText 4s ease-in-out infinite;
@@ -116,7 +116,7 @@ select {
 /* Brilho no hover */
 select:hover {
   box-shadow: 0 0 15px rgba(0, 255, 180, 0.3);
-  border-color: #00ffb3;
+  border-color: #93E9BE;
 }
 
 /* Cor correta do texto na lista suspensa */
@@ -128,17 +128,17 @@ option {
 /* Evita o azul padrão no foco */
 select:focus {
   outline: none;
-  border-color: #00ffb3;
+  border-color: #93E9BE;
   box-shadow: 0 0 20px #00ffb3;
 }
 
 #add-btn {
-  background: linear-gradient(145deg, #00ffb3, #00d48c);
+  background: #93E9BE;
   border: none;
   border-radius: 12px;
   font-size: 2rem;
   cursor: pointer;
-  color: #000;
+  color: white;
   width: 65px;
   height: 65px;
   transition: all 0.25s ease;
@@ -149,7 +149,7 @@ select:focus {
 
 #add-btn:hover {
   transform: scale(1.1) rotate(6deg);
-  box-shadow: 0 0 25px #00ffb3;
+  box-shadow: 0 0 25px #93E9BE;
 }
 
 .task-list {
@@ -158,7 +158,7 @@ select:focus {
   max-height: 40vh;
   overflow-y: auto;
   scrollbar-width: thin;
-  scrollbar-color: #00ffb3 #111;
+  scrollbar-color: #93E9BE #111;
 }
 
 .task {
@@ -320,6 +320,7 @@ select:focus {
     font-size: 1.3rem;
   }
 }
+
 
 
 
