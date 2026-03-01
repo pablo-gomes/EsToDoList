@@ -149,7 +149,6 @@ select:focus {
 
 #add-btn:hover {
   transform: scale(1.1) rotate(6deg);
-  box-shadow: 0 0 25px #93E9BE;
 }
 
 .task-list {
@@ -209,11 +208,6 @@ select:focus {
 
 .pulse {
   animation: pulseAnim 2s infinite;
-}
-
-@keyframes pulseAnim {
-  0%, 100% { box-shadow: 0 0 15px #00ff9d; }
-  50% { box-shadow: 0 0 35px #00ff9d; }
 }
 
 @keyframes fadeIn {
@@ -320,6 +314,7 @@ select:focus {
     font-size: 1.3rem;
   }
 }
+
 
 
 
