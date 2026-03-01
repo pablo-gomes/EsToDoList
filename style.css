@@ -283,10 +283,14 @@ select:focus {
   }
 
   #add-btn {
+    padding: 10px 0;
     width: 70%;
     height: 50px;
     font-size: 1.5rem;
     display: inline-block;
+    aling-content: center;
+    margin: 0 auto;
+    aling-sefl: center;
   }
 
   .filters {
@@ -308,5 +312,6 @@ select:focus {
     font-size: 1.3rem;
   }
 }
+
 
 
