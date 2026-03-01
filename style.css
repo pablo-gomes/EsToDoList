@@ -62,7 +62,6 @@ body::after {
 .title {
   font-size: 2.4rem;
   color: #00ffb3;
-  text-shadow: 0 0 20px #00ffb3;
   margin-bottom: 25px;
   letter-spacing: 1px;
   animation: floatText 4s ease-in-out infinite;
@@ -81,8 +80,8 @@ body::after {
 
 input, select {
   background: rgba(255, 255, 255, 0.08);
-  border: solid 1px white;
-  color: white;
+  border: solid 1px black;
+  color: black;
   border-radius: 10px;
   padding: 12px;
   flex: 1;
@@ -98,9 +97,9 @@ input:focus {
   border-color: #00ff9d;
 }
 select {
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid #333;
-  color: #fff;
+  background: white;
+  border: 1px solid black;
+  color: black;
   border-radius: 10px;
   padding: 12px;
   font-size: 1rem;
@@ -321,6 +320,7 @@ select:focus {
     font-size: 1.3rem;
   }
 }
+
 
 
 
